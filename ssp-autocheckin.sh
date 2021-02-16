@@ -2,7 +2,7 @@
 PATH="/usr/local/bin:/usr/bin:/bin"
 
 #版本、初始化变量
-VERSION="2.5.1"
+VERSION="3"
 ENV_PATH="$(dirname $0)/.env"
 IS_MACOS=$(uname | grep 'Darwin' | wc -l)
 IS_DISPALY_CONTEXT=1
